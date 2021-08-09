@@ -1,0 +1,177 @@
+/*
+composs
+********************************/
+
+html,
+body {
+  height: 400%;
+}
+.btn {
+  background-color: rgb(29, 161, 242);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  justify-content: right;
+
+}
+
+.content {
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.main-header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.logo {
+width: 50px;
+margin-right: 20px;
+}
+.main-header h1 {
+  font-size: 25px;
+  line-height: 20px;
+  margin-bottom: 0;
+  font-weight: bold;
+
+}
+
+/*
+Tweet
+**************************/
+
+.tweet_form {
+  padding: 20px 40px;
+  border-bottom: 1px solid #ccc;
+}
+
+.tweet_form .form-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet_form .form-btn .image-btn {
+  width: 180px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.tweet_form .form-btn .tweet-btn {
+  width: 105px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  color: rgb(255, 255, 255);
+  background-color: #1DA1F2;
+}
+
+.tweet_form .form-btn .cancel-btn{
+  width: 105px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+.tweet_form .person {
+  border: 0px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #e6fef7;
+}
+
+.tweet_form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  height: 100px;
+  resize: none;
+
+}
+
+.tweets ul {
+  padding: 0;
+}
+.tweets li {
+  display: flex;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 40px;
+  list-style: none;
+}
+
+.tweets li .menu_icon {
+  width: 20px;
+  position: absolute;
+  right: 30px;
+  top: 18px;
+}
+
+.tweets li .menu {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px 15px;
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+.tweet li .menu a {
+  text-decoration: none;
+}
+
+.tweets li a img {
+  width: 25px;
+}
+
+.tweets li .inner_div{
+  display: flex;
+}
+
+.tweets li .logo {
+  flex-basis: 15%;
+}
+
+.tweets ul li .logo img {
+  width: 80%;
+}
+
+.tweets li .name_body {
+  flex-basis: 85%;
+}
+
+.tweets li .name_body .name-date{
+  display: flex;
+}
+
+.tweets li .name_body .name {
+  font-weight: bold;
+  font-size: larger;
+}
+.tweets li .name_body .datetime {
+  color: gray;
+}
+.tweets ul li .tweet-content .name_body a img {
+  width: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.tweets ul li.tweet-content .image {
+  width: 100px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .tweets li .name_body .name {
+    font-size: 20px;
+  }
+}
