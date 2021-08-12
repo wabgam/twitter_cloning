@@ -142,6 +142,7 @@ Tweet
 
 .tweets ul li .logo img {
   width: 80%;
+  border-radius: 50%;
 }
 
 .tweets li .name_body {
