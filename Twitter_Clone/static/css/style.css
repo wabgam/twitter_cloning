@@ -114,6 +114,7 @@ Tweet
 }
 
 .tweets li .menu {
+  display: none;
   position: absolute;
   top: 40px;
   right: 15px;
