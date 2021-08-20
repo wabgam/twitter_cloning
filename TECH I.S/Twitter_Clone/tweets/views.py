@@ -19,7 +19,7 @@ def index(request):
               return HttpResponseRedirect(form.error.as_json())
 
     # Get all tweets, limit = 20
-    tweets = Tweet.objects.all()[:20]
+    tweets = Tweet.objects.all().order_by('-created_at')[:20]
 
     # show
     return render(request, 'tweets.html', 

@@ -123,9 +123,14 @@ Tweet
   padding: 10px 15px;
   font-size: 13px;
   border-radius: 3px;
+  text-decoration: none;
 }
 
 .tweet li .menu a {
+  text-decoration: none;
+}
+
+.tweets ul li .tweet-content .menu a {
   text-decoration: none;
 }
 
@@ -167,8 +172,8 @@ Tweet
   cursor: pointer;
 }
 
-.tweets ul li.tweet-content .image {
-  width: 100px;
+.tweets ul li .tweet-content .image img{
+  width: 60%;
 }
 
 
